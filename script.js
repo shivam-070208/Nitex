@@ -69,8 +69,6 @@ const setStorySectionAnim = () => {
     scrollTrigger: {
       trigger: ".page1",
       scroller: "main",
-      start: "top top",
-      end: "bottom top",
       pin: true,
       scrub: true,
     },
