@@ -7,7 +7,9 @@ const setSmoothscroll = () => {
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector("main"), // your scroll container
     smooth: true,
-    multiplier: 1.2, // adjust speed
+    multiplier: 1.2, 
+    touchmultiplier:1.4,
+    lerp:0.9
   });
 
   // tell ScrollTrigger to use proxy
@@ -40,9 +42,9 @@ const setSmoothscroll = () => {
 const setHelpSectionAnim = () => {
   const helptimeline = gsap.timeline({
     scrollTrigger: {
-      trigger: "#page4",
+      trigger: ".page_help",
       scroller: "main",
-      start: "top 10%",
+      start:"top -100%",
       toggleActions: "play none none reverse",
     },
   });
