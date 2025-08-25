@@ -40,7 +40,7 @@ const setSmoothscroll = () => {
 const setHelpSectionAnim = () => {
   const helptimeline = gsap.timeline({
     scrollTrigger: {
-      trigger: "#page5",
+      trigger: "#page4",
       scroller: "main",
       start: "top 10%",
       toggleActions: "play none none reverse",
