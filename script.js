@@ -44,7 +44,6 @@ const setHelpSectionAnim = () => {
       scroller: "main",
       start: "top 10%",
       toggleActions: "play none none reverse",
-      markers:true
     },
   });
   helptimeline.to(
