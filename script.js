@@ -72,7 +72,7 @@ const setStorySectionAnim = () => {
       start: "top top",
       end: "bottom top",
       pin: true,
-      scrub: 1.4,
+      scrub: true,
     },
   });
 
