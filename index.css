@@ -41,6 +41,9 @@ body {
 .color-secondary{
   background-color: #E6E6E6;
 }
+.color-primary{
+  background-color: var(--color-primary);
+}
 .headtext {
   width: fit-content;
   height: fit-content;
