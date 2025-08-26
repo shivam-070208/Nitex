@@ -9,7 +9,7 @@ const setSmoothscroll = () => {
     smooth: true,
     multiplier: 1.2, 
     touchmultiplier:1.4,
-    lerp:0.9
+  
   });
 
   // tell ScrollTrigger to use proxy
